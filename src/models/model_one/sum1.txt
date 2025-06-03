@@ -1,0 +1,82 @@
+
+
+Test accuracy: 0.89
+
+Model saved to: outputs/build_model_one.keras
+79/79 ━━━━━━━━━━━━━━━━━━━━ 1s 9ms/step 
+Confusion matrix saved to outputs/confusion_matrix_build_model_one.png
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.87      0.84      1000
+           1       1.00      0.98      0.99      1000
+           2       0.83      0.88      0.86      1000
+           3       0.92      0.88      0.90      1000
+           4       0.91      0.75      0.82      1000
+           5       0.98      0.96      0.97      1000
+           6       0.66      0.73      0.70      1000
+           7       0.91      0.97      0.94      1000
+           8       0.97      0.99      0.98      1000
+           9       0.98      0.92      0.95      1000
+
+    accuracy                           0.89     10000
+   macro avg       0.90      0.89      0.89     10000
+weighted avg       0.90      0.89      0.89     10000
+
+Classification report saved to outputs/classification_report_build_model_one.txt
+
+
+
+
+Test accuracy: 0.86
+
+Model saved to: outputs/model_one_optimized.keras
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.85      0.80      1000
+           1       0.98      0.98      0.98      1000
+           2       0.79      0.79      0.79      1000
+           3       0.92      0.81      0.86      1000
+           4       0.82      0.73      0.78      1000
+           5       0.96      0.94      0.95      1000
+           6       0.59      0.62      0.61      1000
+           7       0.91      0.92      0.92      1000
+           8       0.91      0.98      0.95      1000
+           9       0.94      0.95      0.94      1000
+
+    accuracy                           0.86     10000
+   macro avg       0.86      0.86      0.86     10000
+weighted avg       0.86      0.86      0.86     10000
+
+Classification report saved to outputs/classification_report_model_one_optimized.txt
+efter modifiering med klas 6 
+
+
+Test accuracy: 0.90
+
+Model saved to: outputs/model_two_shirt_enhanced.keras
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.88      0.85      1000
+           1       0.99      0.98      0.99      1000
+           2       0.90      0.82      0.86      1000
+           3       0.93      0.91      0.92      1000
+           4       0.81      0.88      0.84      1000
+           5       0.99      0.95      0.97      1000
+           6       0.71      0.67      0.69      1000
+           7       0.91      0.97      0.94      1000
+           8       0.97      0.99      0.98      1000
+           9       0.98      0.95      0.96      1000
+
+    accuracy                           0.90     10000
+   macro avg       0.90      0.90      0.90     10000
+weighted avg       0.90      0.90      0.90     10000
+
+Classification report saved to outputs/classification_report_model_two_shirt_enhanced.txt
+
+⏰ 11:15:04 📁 fashion_mnist_project  🐧 piroz in @ on  main 

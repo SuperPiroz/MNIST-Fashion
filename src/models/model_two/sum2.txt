@@ -1,0 +1,51 @@
+
+Test accuracy: 0.88
+
+Model saved to: outputs/model_two_optimized.keras
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.82      0.82      1000
+           1       1.00      0.97      0.98      1000
+           2       0.91      0.74      0.82      1000
+           3       0.94      0.82      0.88      1000
+           4       0.80      0.85      0.82      1000
+           5       0.98      0.94      0.96      1000
+           6       0.60      0.73      0.66      1000
+           7       0.89      0.97      0.93      1000
+           8       0.93      0.99      0.96      1000
+           9       0.97      0.94      0.95      1000
+
+    accuracy                           0.88     10000
+   macro avg       0.89      0.88      0.88     10000
+weighted avg       0.89      0.88      0.88     10000
+
+Classification report saved to outputs/classification_report_model_two_optimized.txt
+
+
+efter modifiering
+
+Test accuracy: 0.90
+
+Model saved to: outputs/model_two_shirt_enhanced.keras
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.80      0.90      0.85      1000
+           1       0.99      0.98      0.99      1000
+           2       0.86      0.88      0.87      1000
+           3       0.91      0.92      0.92      1000
+           4       0.80      0.87      0.83      1000
+           5       0.99      0.95      0.97      1000
+           6       0.75      0.56      0.64      1000
+           7       0.91      0.98      0.94      1000
+           8       0.97      0.99      0.98      1000
+           9       0.98      0.95      0.96      1000
+
+    accuracy                           0.90     10000
+   macro avg       0.90      0.90      0.89     10000
+weighted avg       0.90      0.90      0.89     10000
+
+Classification report saved to outputs/classification_report_model_two_shirt_enhanced.txt

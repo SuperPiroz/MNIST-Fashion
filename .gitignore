@@ -1,0 +1,44 @@
+# Ignorera datafiler
+data/
+data/*
+
+# Ignorera outputs
+outputs/
+outputs/*
+
+# Ignorera virtuell miljö
+venv/
+ENV/
+
+# Ignorera cache och temporära filer
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Ignorera IDE-filer
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorera stora binärfiler
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+# Ignorera Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Ignorera stora modellfiler
+*.keras
+*.h5
+*.pkl
+*.model
+
+# Ignorera loggfiler
+*.log
